@@ -13,6 +13,7 @@
 		1B4A75F22A0F908800D3F793 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B4A75F12A0F908800D3F793 /* Preview Assets.xcassets */; };
 		1B4A75F42A0F908800D3F793 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A75F32A0F908800D3F793 /* Persistence.swift */; };
 		1B4A75F72A0F908800D3F793 /* Growth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A75F52A0F908800D3F793 /* Growth.xcdatamodeld */; };
+		1B4A75FE2A11024500D3F793 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A75FD2A11024500D3F793 /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		1B4A75F12A0F908800D3F793 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1B4A75F32A0F908800D3F793 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		1B4A75F62A0F908800D3F793 /* Growth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Growth.xcdatamodel; sourceTree = "<group>"; };
+		1B4A75FD2A11024500D3F793 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				1B4A75EA2A0F908300D3F793 /* GrowthApp.swift */,
 				1B4A75EC2A0F908300D3F793 /* ContentView.swift */,
+				1B4A75FD2A11024500D3F793 /* SettingView.swift */,
 				1B4A75EE2A0F908800D3F793 /* Assets.xcassets */,
 				1B4A75F32A0F908800D3F793 /* Persistence.swift */,
 				1B4A75F52A0F908800D3F793 /* Growth.xcdatamodeld */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B4A75F42A0F908800D3F793 /* Persistence.swift in Sources */,
+				1B4A75FE2A11024500D3F793 /* SettingView.swift in Sources */,
 				1B4A75ED2A0F908300D3F793 /* ContentView.swift in Sources */,
 				1B4A75F72A0F908800D3F793 /* Growth.xcdatamodeld in Sources */,
 				1B4A75EB2A0F908300D3F793 /* GrowthApp.swift in Sources */,
