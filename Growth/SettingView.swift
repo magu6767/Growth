@@ -8,8 +8,12 @@
 import SwiftUI
 
 struct SettingView: View {
+    @State var notificationTime = Date()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text(notificationTime.description)
+            DatePicker(selection: $notificationTime, displayedComponents: .hourAndMinute, label: { Text("Time") })
+        }
     }
 }
 
