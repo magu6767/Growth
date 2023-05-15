@@ -24,10 +24,15 @@ struct ContentView: View {
                     .scaledToFill()
                     .ignoresSafeArea()
                 VStack {
+                    Spacer()
                     Image("slime")
                         .resizable()
                         .frame(width: 100.0, height: 100.0)
-                        
+                        .onTapGesture {
+                            print("タップ時の処理")
+                        }
+                    Spacer()
+                    Text("Come tomorrow!")
                 }
             }
             .toolbar {
